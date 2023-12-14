@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    padding-left: 170px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+    padding-left: 210px;
+    margin-top: 8px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 20px;
+    padding-left: 160px;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 70%;
+    resize: none;
+    
+}
+
+button {
+    background-color: rgba(48, 48, 187, 0.801);
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(71, 71, 163, 0.801);
+}
+
+.success-message {
+    background-color: rgba(48, 48, 187, 0.801);
+    padding: 16px;
+    color: #fff;
+    display: none;
+    width: 70%;
+}
+
+.error-message {
+    font-size: 12px;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+    width: 70%;
+}
